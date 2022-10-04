@@ -1,0 +1,47 @@
+
+<section>
+    <form>
+    <fieldset >
+      <legend>Fill your details and enroll today</legend>
+      
+      <div class="mb-3">
+        <label for="first_name" class="form-label">First name: </label>
+        <input id="first_name" type="text" [formControl]="first_name" class="form-control" placeholder="enter your first name">
+      </div>
+      <!-- <div class="mb-3">
+       
+        <label for="disabledSelect" class="form-label">Disabled select menu</label>
+        <select id="disabledSelect" class="form-select">
+          <option>online</option>
+          <option>classroom training</option>
+
+        </select>
+      </div> --> 
+      <div class="mb-3">
+        <label for="last_name" class="form-label">Last name: </label>
+        <input id="last_name" type="text" [formControl]="last_name" class="form-control" placeholder="enter your last name">
+      </div>
+
+      <div class="mb-3">
+        <label for="contact_number" class="form-label">Contact Number: </label>
+        <input id="contact_number" type="text" [formControl]="contact_number" class="form-control" placeholder="mobile number">
+      </div>
+
+      <div class="mb-3">
+        <label for="DOB" class="form-label">Date Of Birth: </label>
+<input id="DOB" type="text" [formControl]="DOB" class="form-control" placeholder="dd/mm/yyyy">
+
+        
+      </div>
+
+      <div class="mb-3">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" >
+          <label class="form-check-label" for="disabledFieldsetCheck">
+i have read all the terms and conditions          </label>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" (click)="save()">Submit</button>
+    </fieldset>
+  </form>
+  </section>
