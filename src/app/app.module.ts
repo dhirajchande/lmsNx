@@ -10,6 +10,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { CourseFormComponent } from './course-form/course-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ActivitiesComponent } from './activities/activities.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -21,7 +22,8 @@ import { ActivitiesComponent } from './activities/activities.component';
     MyCoursesComponent,
     ProfileComponent,
     CourseFormComponent,
-    ActivitiesComponent
+    ActivitiesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
