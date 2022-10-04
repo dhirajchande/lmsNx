@@ -26,6 +26,15 @@ export class ActivitiesComponent implements OnInit {
       center: 'title',
       right: 'dayGridMonth,dayGridWeek,dayGridDay'
     }
+
   };
+
+  toggleWeekends() {
+    // make a copy while overriding some values
+    this.calendarOptions = {
+      ...this.calendarOptions,
+      weekends: !this.calendarOptions.weekends,
+    }
+  }
 
 }
