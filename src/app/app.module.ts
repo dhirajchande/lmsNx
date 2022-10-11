@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { HomeComponent } from './home/home.component';
     ProfileComponent,
     CourseFormComponent,
     ActivitiesComponent,
-    HomeComponent
+    HomeComponent,
+    
   ],
   imports: [
     BrowserModule,

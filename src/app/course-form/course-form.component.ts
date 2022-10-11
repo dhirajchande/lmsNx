@@ -26,6 +26,7 @@ export class CourseFormComponent implements OnInit {
     console.log(this.last_name.value);
     console.log(this.contact_number.value);
     console.log(this.DOB.value);
+    
 
 
   }
