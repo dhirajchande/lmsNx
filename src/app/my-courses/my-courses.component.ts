@@ -8,11 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyCoursesComponent implements OnInit {
 
+  dtOptions: DataTables.Settings = {
+    pagingType: 'full_numbers'
+  };
+
+
   constructor() { 
     
   }
 
   ngOnInit(): void {
+
   }
 
   

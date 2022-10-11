@@ -11,6 +11,8 @@ import { CourseFormComponent } from './course-form/course-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ActivitiesComponent } from './activities/activities.component';
 import { HomeComponent } from './home/home.component';
+import { DataTablesModule } from "angular-datatables";
+
 
 
 
@@ -31,7 +33,9 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DataTablesModule
+
   ],
   providers: [],
   bootstrap: [AppComponent],
